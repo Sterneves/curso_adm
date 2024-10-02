@@ -1,0 +1,9 @@
+<!-- Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja.
+Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x. -->
+
+<script>
+    const preço_do_produto = Number(prompt("Digite o preço do produto:"));
+    const A_vista = ( preço_do_produto - (preço_do_produto * 0.10) );
+    const parcelado =( preço_do_produto / 3);
+    alert(`O preco do produto a vista e : ${A_vista} e o valor dividido em 3 vezes e: ${parcelado}`) 
+</script>
