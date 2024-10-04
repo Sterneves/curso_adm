@@ -12,7 +12,7 @@ frm.addEventListener("submit", (e)=> {
     const minutos = duracao % 60 // processamento
 
     resp1.innerText = titulo; // saida
-    resp2.innerText = `${horas} hora(s) e ${minutis} minutos(s)`; // saida
+    resp2.innerText = `${horas} hora(s) e ${minutos} minutos(s)`; // saida
 
     e.preventDefault();
 });
