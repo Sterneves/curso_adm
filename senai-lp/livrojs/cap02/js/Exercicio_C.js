@@ -6,7 +6,7 @@ frm.addEventListener("submit",(e) =>{
     const produto= frm.inProduto.value
     const valor = Number(frm.inValor.value);
 
-    const total =(( valor * 2) + valor * 0.5);
+    const total =( valor * 2);
    
 
     resp1.innerText = `Produto : ${produto.toFixed(2)}`
@@ -14,4 +14,6 @@ frm.addEventListener("submit",(e) =>{
 
 
     e.preventDefault()
+
+    
 })
